@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Lato&family=Proza+Libre&display=swap');
+.chat-container{
+    width: 45vw;
+    height: 100vh;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #E5E5E5;
+}
+.chat-container-header{
+    background-color: white;
+    width: 45vw;
+    height: 60px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.chat-container-header>h2{
+margin-left: 20px;
+font-family: 'Lato', sans-serif;
+
+}
+
+.chat-container-body{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: scroll;
+}
+.chat-container-input{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chat-container-inputfeild{
+    width: 90%;
+    height: 40px;
+    border-radius: 12px;
+    padding: 2px 12px;
+    font-size: 18px;
+}
+.chat-container-trigger-button{
+    max-width: 40px;
+    filter: invert(75%) sepia(20%) saturate(587%) hue-rotate(176deg) brightness(94%) contrast(92%);
+}
+.chat-container-trigger-button:hover{
+    cursor: pointer;
+   filter: invert(47%) sepia(6%) saturate(3899%) hue-rotate(181deg) brightness(98%) contrast(92%);
+}
+.chatnotification{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left : 40%;
+    top:30%;
+}

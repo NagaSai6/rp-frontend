@@ -1,0 +1,62 @@
+.homeCurrentUser {
+    width: 100%;
+    height: 100vh;
+    background-color: #dfe9f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.homeCurrentUserProfile {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.homeCurrentUserProfileImage {
+    width: 120px;
+    border-radius: 60px;
+}
+
+.homeCurrentUserProfileDetails {
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+}
+
+.homeCurrentUserProfileDetailsItem {
+    font-family: 'Lato';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.activeUserName{
+  font-family: "Lato";
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+}
+.profile-card__button{
+    padding:4px 8px 4px 8px;
+    margin: 7px;
+    background-color: white;
+}
+.activeUseI{
+padding: 5px;
+}

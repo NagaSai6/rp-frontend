@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap");
+
+.conversations-container {
+  width: 25vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-right: 1px solid grey;
+}
+.conversations-header {
+  width: 25vw;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+.conversations-baricon {
+  margin-left: 10px;
+  max-width: 23px;
+}
+.conversations-title {
+  font-family: "Proza Libre", sans-serif;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 12px;
+  font-weight: bold;
+}
+.conversations-refresh-button {
+  max-width: 23px;
+  max-height: 26.6px;
+}
+.conversations-refresh-button:hover {
+  cursor: pointer;
+}
+
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.conversation:hover {
+  background-color: rgb(245, 243, 243);
+}
+
+.conversationImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.conversationName {
+  font-weight: 500;
+}
+.conversationEr {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Lato";
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .conversationName {
+    display: none;
+  }
+}

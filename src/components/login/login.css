@@ -1,0 +1,13 @@
+
+.mainDiv-image{
+position: absolute;
+left: 50%;
+top:2%;
+transform: translate(-50%,-2%);
+}
+.fbButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

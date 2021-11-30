@@ -1,0 +1,58 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.group {
+  max-width: 50px;
+  max-height: 50px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(303deg)
+    brightness(103%) contrast(101%);
+}
+
+.sidebar-container {
+  height: 100vh;
+  width: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #004e96;
+}
+
+.sidebar-element {
+  width: 4vw;
+  height: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-element:hover {
+  cursor: pointer;
+}
+
+.sidebar-logo {
+  width: 4vw;
+  height: 4vw;
+}
+
+.sidebar-element-selected {
+  background-color: white;
+}
+
+.sidebar-user {
+  position: fixed;
+  bottom: 1px;
+}
+
+.sidebar-user-profile-icon {
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+}
